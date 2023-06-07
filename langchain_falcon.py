@@ -29,4 +29,3 @@ def factory():
     llm_chain = LLMChain(prompt=prompt, llm=llm)
 
     return llm_chain
-
